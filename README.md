@@ -12,7 +12,7 @@
 
   - Maven coordinates (groupId, artifactId, version)
   - pom.xml structure overview
-  - 
+    
 ## Maven Directory Structure
     - src/main/java
 
