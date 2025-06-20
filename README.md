@@ -7,11 +7,12 @@
 
      - Traditional vs Maven project structure
 
-##🔹 Maven Basics
+## Maven Basics
   - How Maven works (Build Lifecycle)
 
   - Maven coordinates (groupId, artifactId, version)
   - pom.xml structure overview
+  - 
 ## Maven Directory Structure
     - src/main/java
 
