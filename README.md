@@ -19,4 +19,15 @@
     - src/test/java
 
     - target/ folder
+
+ ## Core Concepts
+
+ - Dependencies and Repositories
+
+- Transitive dependencies
+
+- Maven Central Repository
+
+- Dependency scope (compile, test, provided, runtime)
+ 
    
