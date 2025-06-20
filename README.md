@@ -18,5 +18,5 @@
 
     - src/test/java
 
-     - target/ folder
+    - target/ folder
    
