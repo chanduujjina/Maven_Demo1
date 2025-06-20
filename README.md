@@ -6,3 +6,10 @@
 - Why do we need Maven?
 
 - Traditional vs Maven project structure
+
+2. 🔹 Maven Basics
+- How Maven works (Build Lifecycle)
+
+- Maven coordinates (groupId, artifactId, version)
+- pom.xml structure overview
+   
