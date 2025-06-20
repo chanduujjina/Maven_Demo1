@@ -30,7 +30,7 @@
 
 - Dependency scope (compile, test, provided, runtime)
 
-  ## Maven Phases and Lifecycle
+ ## Maven Phases and Lifecycle
   - validate, compile, test, package, install, deploy
 
   - Custom lifecycle overview (optional)
