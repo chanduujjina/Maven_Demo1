@@ -54,5 +54,22 @@
 - mvn install
 
 - mvn dependency:tree
+
+🏗️ Commonly Used Maven Archetypes
+
+| Archetype ID                                     | Description                                          |
+| ------------------------------------------------ | ---------------------------------------------------- |
+| `maven-archetype-quickstart`                     | ✅ Basic Java project (Main class + test class)       |
+| `maven-archetype-webapp`                         | 🌐 Java Web app with `web.xml` (Servlet/JSP)         |
+| `maven-archetype-j2ee-simple`                    | EE app base with `EJB`, WAR modules                  |
+| `maven-archetype-site-simple`                    | 📄 Generates Maven project documentation site        |
+| `maven-archetype-archetype`                      | Used to create your own custom archetype             |
+| `maven-archetype-plugin`                         | For building Maven plugins                           |
+| `maven-archetype-portlet`                        | Liferay/JSR portlet-based project                    |
+| `maven-archetype-mojo`                           | To write your own Maven mojo (plugin goals)          |
+| `org.springframework.boot:spring-boot-archetype` | 🧪 Spring Boot application starter (less common now) |
+
+
+
  
    
