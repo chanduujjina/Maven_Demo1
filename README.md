@@ -1,7 +1,8 @@
 # Maven_Demo1
 
-1. 🔹 Introduction to Maven
-  - What is Maven?
+1.
+2. - Introduction to Maven
+     - What is Maven?
 
   - Why do we need Maven?
 
