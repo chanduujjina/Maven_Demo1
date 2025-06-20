@@ -34,5 +34,25 @@
   - validate, compile, test, package, install, deploy
 
   - Custom lifecycle overview (optional)
+
+## Plugins and Goals
+ - Compiler plugin
+
+- Surefire plugin (for unit testing)
+
+- Shade plugin (for creating fat JARs)
+
+- Exec plugin (to run Java classes)
+
+## Common Commands
+ - mvn clean
+
+- mvn compile
+
+- mvn package
+
+- mvn install
+
+- mvn dependency:tree
  
    
