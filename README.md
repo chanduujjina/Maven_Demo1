@@ -72,7 +72,14 @@
 ```bash
 mvn archetype:generate -DgroupId=com.demo -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
+This generates a folder with:
 
+```bash
+src/
+ └─ main/java
+ └─ test/java
+pom.xml
+```
 
 
  
