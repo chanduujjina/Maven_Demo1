@@ -80,6 +80,21 @@ src/
  └─ test/java
 pom.xml
 ```
+✅ Maven Core Commands & Goals
+| Command               | Type        | Purpose                                                                |
+| --------------------- | ----------- | ---------------------------------------------------------------------- |
+| `mvn clean`           | Lifecycle   | Deletes the `target/` directory (removes previous build artifacts)     |
+| `mvn compile`         | Lifecycle   | Compiles the Java source code (from `src/main/java`)                   |
+| `mvn test`            | Lifecycle   | Runs unit tests using test framework (e.g., JUnit)                     |
+| `mvn package`         | Lifecycle   | Packages compiled code into `.jar` or `.war` (inside `target/`)        |
+| `mvn install`         | Lifecycle   | Installs the packaged `.jar` into **local Maven repo** (`~/.m2`)       |
+| `mvn dependency:tree` | Plugin Goal | Shows the **complete tree of dependencies**, including transitive ones |
+
+🔍 Details of Each
+# mvn clean
+🧹 Deletes the target/ folder to ensure a fresh build
+Use it before compile or package to avoid stale files.
+
 
 
  
