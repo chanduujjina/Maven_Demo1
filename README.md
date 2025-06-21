@@ -69,8 +69,9 @@
 | `maven-archetype-mojo`                           | To write your own Maven mojo (plugin goals)          |
 | `org.springframework.boot:spring-boot-archetype` | 🧪 Spring Boot application starter (less common now) |
 
+```bash
 mvn archetype:generate -DgroupId=com.demo -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-
+```
 
 
 
