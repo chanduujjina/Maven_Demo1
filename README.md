@@ -7,6 +7,17 @@
 
 - Traditional vs Maven project structure
 
+| Task                          | Description                                                                  |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| 🔨 Build automation           | Compiles your code, runs tests, packages into `.jar` or `.war` automatically |
+| 📦 Dependency management      | Automatically downloads and manages libraries (like Spring, JUnit, etc.)     |
+| 🏗 Project structure standard | Follows a consistent directory structure and naming convention               |
+| 🚀 Simplified project setup   | Quickly generate a new project using archetypes                              |
+| 🔁 Build lifecycle management | Handles steps like compile, test, package, install, deploy                   |
+| 🔍 Plugin integration         | Easily extend with plugins (e.g., compiler, Surefire, Checkstyle)            |
+
+  
+
 ## Maven Basics
   - How Maven works (Build Lifecycle)
 
