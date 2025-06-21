@@ -171,3 +171,13 @@ mvn test
 | install          | Put meal into your home fridge       |
 | dependency\:tree | See how all ingredients were sourced |
 
+🧠 Skip Tests
+# If you want Maven to skip tests, use:
+```bash
+mvn install -DskipTests
+```
+# If you want to compile tests but not run them:
+```bash
+mvn install -Dmaven.test.skip=true
+```
+
