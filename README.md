@@ -113,4 +113,18 @@ mvn package
 
 ```
  
-   
+ # mvn install
+ 📥 Installs your built artifact to local repository (~/.m2/repository) .Other projects on the same machine can use this version.
+
+ ```bash
+mvn install
+```
+
+# mvn dependency:tree
+🌳 Shows how your dependencies are connected (direct + transitive) Very useful to:
+ - Detect version conflicts
+ - See what's bringing an unwanted dependency
+
+```bash
+mvn dependency:tree
+```
