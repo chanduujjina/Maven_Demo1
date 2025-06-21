@@ -128,3 +128,13 @@ mvn install
 ```bash
 mvn dependency:tree
 ```
+🧠 Real-World Analogy
+
+| Phase            | Analogy                              |
+| ---------------- | ------------------------------------ |
+| clean            | Wipe old ingredients off the table   |
+| compile          | Chop and prepare raw materials       |
+| package          | Cook and pack the meal               |
+| install          | Put meal into your home fridge       |
+| dependency\:tree | See how all ingredients were sourced |
+
