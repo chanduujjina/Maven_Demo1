@@ -90,6 +90,16 @@ src/
  └─ test/java
 pom.xml
 ```
+
+📂 Structure Overview
+
+| Folder/File    | Purpose                       |
+| -------------- | ----------------------------- |
+| `pom.xml`      | Maven configuration file      |
+| `App.java`     | Main class generated          |
+| `AppTest.java` | Sample test class using JUnit |
+
+
 ✅ Maven Core Commands & Goals
 | Command               | Type        | Purpose                                                                |
 | --------------------- | ----------- | ---------------------------------------------------------------------- |
