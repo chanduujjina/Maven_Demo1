@@ -72,7 +72,17 @@
 ```bash
 mvn archetype:generate -DgroupId=com.demo -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
-This generates a folder with:
+# Explaination of the above Command in tabular Format
+| Attribute                                          | Meaning                                                                                         |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `mvn`                                              | Invokes Maven                                                                                   |
+| `archetype:generate`                               | Tells Maven to run the **archetype plugin** to generate a new project                           |
+| `-DgroupId=com.demo`                               | **Group ID** — Java package-style name that uniquely identifies your project (like a namespace) |
+| `-DartifactId=my-app`                              | **Artifact ID** — name of the project/folder and the `.jar` name                                |
+| `-DarchetypeArtifactId=maven-archetype-quickstart` | Specifies which **project template** to use (in this case, a basic Java app template)           |
+| `-DinteractiveMode=false`                          | Runs without asking questions in the terminal (non-interactive)                                 |
+
+# This generates a folder with:
 
 ```bash
 src/
