@@ -92,10 +92,25 @@ pom.xml
 
 🔍 Details of Each
 # mvn clean
-🧹 Deletes the target/ folder to ensure a fresh build
-Use it before compile or package to avoid stale files.
+🧹 Deletes the target/ folder to ensure a fresh build .Use it before compile or package to avoid stale files.
+```bash
+mvn clean
+```
+# mvn compile
+🛠️ Compiles your .java files in src/main/java
+ - Output: .class files in target/classes
+```bash
+mvn compile
+```
+# mvn package
+📦 Compiles + tests + creates .jar or .war file Based on <packaging> in pom.xml:
+- <packaging>jar</packaging> → JAR
 
+- <packaging>war</packaging> → WAR
 
+```bash
+mvn package
 
+```
  
    
